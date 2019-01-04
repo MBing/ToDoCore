@@ -14,6 +14,7 @@
 		5AC3E51D21DF6C8000DF6FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC3E51B21DF6C8000DF6FA2 /* LaunchScreen.storyboard */; };
 		5AC3E52821DF6C8000DF6FA2 /* GetItDoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3E52721DF6C8000DF6FA2 /* GetItDoneTests.swift */; };
 		5AC3E53321DF910000DF6FA2 /* MBGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3E53221DF910000DF6FA2 /* MBGradient.swift */; };
+		5AC3E53621DF9B3C00DF6FA2 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3E53521DF9B3C00DF6FA2 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		5AC3E52721DF6C8000DF6FA2 /* GetItDoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItDoneTests.swift; sourceTree = "<group>"; };
 		5AC3E52921DF6C8000DF6FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AC3E53221DF910000DF6FA2 /* MBGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBGradient.swift; sourceTree = "<group>"; };
+		5AC3E53521DF9B3C00DF6FA2 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		5AC3E50E21DF6C7C00DF6FA2 /* GetItDone */ = {
 			isa = PBXGroup;
 			children = (
+				5AC3E53421DF9B0600DF6FA2 /* Extension */,
 				5AC3E50F21DF6C7C00DF6FA2 /* AppDelegate.swift */,
 				5AC3E51121DF6C7C00DF6FA2 /* WelcomeController.swift */,
 				5AC3E51921DF6C8000DF6FA2 /* Assets.xcassets */,
@@ -97,6 +100,14 @@
 				5AC3E52921DF6C8000DF6FA2 /* Info.plist */,
 			);
 			path = GetItDoneTests;
+			sourceTree = "<group>";
+		};
+		5AC3E53421DF9B0600DF6FA2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5AC3E53521DF9B3C00DF6FA2 /* UIColor.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 				5AC3E51221DF6C7C00DF6FA2 /* WelcomeController.swift in Sources */,
 				5AC3E51821DF6C7C00DF6FA2 /* GetItDone.xcdatamodeld in Sources */,
 				5AC3E51021DF6C7C00DF6FA2 /* AppDelegate.swift in Sources */,
+				5AC3E53621DF9B3C00DF6FA2 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
