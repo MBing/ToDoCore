@@ -13,6 +13,7 @@
 		5AC3E51A21DF6C8000DF6FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC3E51921DF6C8000DF6FA2 /* Assets.xcassets */; };
 		5AC3E51D21DF6C8000DF6FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC3E51B21DF6C8000DF6FA2 /* LaunchScreen.storyboard */; };
 		5AC3E52821DF6C8000DF6FA2 /* GetItDoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3E52721DF6C8000DF6FA2 /* GetItDoneTests.swift */; };
+		5AC3E53321DF910000DF6FA2 /* MBGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3E53221DF910000DF6FA2 /* MBGradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5AC3E52321DF6C8000DF6FA2 /* GetItDoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetItDoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC3E52721DF6C8000DF6FA2 /* GetItDoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItDoneTests.swift; sourceTree = "<group>"; };
 		5AC3E52921DF6C8000DF6FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC3E53221DF910000DF6FA2 /* MBGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				5AC3E51B21DF6C8000DF6FA2 /* LaunchScreen.storyboard */,
 				5AC3E51E21DF6C8000DF6FA2 /* Info.plist */,
 				5AC3E51621DF6C7C00DF6FA2 /* GetItDone.xcdatamodeld */,
+				5AC3E53221DF910000DF6FA2 /* MBGradient.swift */,
 			);
 			path = GetItDone;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC3E53321DF910000DF6FA2 /* MBGradient.swift in Sources */,
 				5AC3E51221DF6C7C00DF6FA2 /* WelcomeController.swift in Sources */,
 				5AC3E51821DF6C7C00DF6FA2 /* GetItDone.xcdatamodeld in Sources */,
 				5AC3E51021DF6C7C00DF6FA2 /* AppDelegate.swift in Sources */,

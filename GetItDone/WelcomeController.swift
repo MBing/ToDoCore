@@ -10,7 +10,7 @@ import UIKit
 
 class WelcomeController: UIViewController {
     let bg: UIView = {
-        let view = UIView()
+        let view = MBGradient()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = .cyan
         view.layer.cornerRadius = 6
